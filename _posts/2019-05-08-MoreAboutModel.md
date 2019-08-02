@@ -9,7 +9,6 @@ tags:
 updated: 2019-08-01
 music-id: 
 ---
-@[toc]
 ## 简介
 - 本案例利用mnist手写数据集，详细介绍fastai中模型的生态。
 ## 步骤

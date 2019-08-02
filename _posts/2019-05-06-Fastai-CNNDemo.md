@@ -1,16 +1,14 @@
 ---
-layout:     post
 title:      Fastai使用CNN分类
-subtitle:   快速开始
 date:       2019-05-06
-author:     zhouchen
-header-img: img/post-bg-fastai.jpg
-catalog: true
+categories: 'Fastai'
+description: 在这个案例中将从手写集开始了解fastai的使用模式。
 tags:
-    - Fastai
     - 深度学习
+    - Fastai
+updated: 2019-08-01
+music-id: 
 ---
-
 # 简单分类
 - 简介
 	- 在这个案例中将从手写集开始了解fastai的使用模式。
