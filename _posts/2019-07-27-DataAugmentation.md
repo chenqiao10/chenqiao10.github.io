@@ -134,5 +134,5 @@ music-id: 528321045
     - 可以看到，每一批都有概率进行了随机增广。
 ## 补充说明
 - 本项目重点是数据增广，数据的多种读入方式没有过多提及。
-- 具体代码上传至[我的Github](https://github.com/luanshiyinyang/DeepLearning/tree/Keras/DataAugmentation)，欢迎Star或者Fork。
+- 具体代码上传至[我的Github](https://github.com/luanshiyinyang/Tutorial/tree/Keras/DataAugmentation)，欢迎Star或者Fork。
 - 博客同步至[个人博客网站](https://luanshiyinyang.github.io/)，欢迎查看。
