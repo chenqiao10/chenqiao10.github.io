@@ -42,7 +42,7 @@ paginate: 10
 ## 'pygments' is unsupported on GitHub Pages now.
 highlighter: rouge
 highlight:
-  line_number: false
+  line_number: true
   auto_detect: true
 
 #### Markdown Processors Markdown配置
