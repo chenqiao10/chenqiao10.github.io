@@ -118,6 +118,8 @@ seo: true
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
 index_with_subtitle: true
+# Google Search Console
+google_site_verification: _HkfwgpHrVfZFooTZ-QGtsp-PAnY4xv-J27-aAd3cmc
 
 # ---------------------------------------------------------------
 # Menu Settings
