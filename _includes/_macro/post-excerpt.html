@@ -2,6 +2,7 @@
   {% assign source = post.excerpt %}
   {% include _helper/lineno.html %}
   <!--{{ lineno }}-->
+  <!-- 上面删去一行，保证不重复-->
 {% else %}
   {{ post.excerpt }}
 {% endif %}
