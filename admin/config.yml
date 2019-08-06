@@ -1,10 +1,10 @@
 backend:
-  name: zhouchen
+  name: github
   repo: luanshiyinyang/luanshiyinyang.github.io
   branch: master # Branch to update (master by default)
 
 # display_url: 
-media_folder: "asset" # Folder where user uploaded files should go
+media_folder: "uploads" # Folder where user uploaded files should go
 # slug:
 #   encoding: "ascii"
 #   clean_accents: true
