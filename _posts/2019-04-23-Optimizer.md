@@ -1,5 +1,5 @@
 ---
-title:      PyTorch中不同的优化器函数。
+title:      PyTorch中不同的优化器函数
 date:       2019-04-23
 categories: 'PyTorch'
 description: 演示PyTorch中使用不同的优化函数。
