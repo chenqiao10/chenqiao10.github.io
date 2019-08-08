@@ -9,6 +9,17 @@ catalog: true
 tags:
     - PyTorch
 ---
+---
+title:      PyTorch构建自编码器
+date:       2019-04-24
+categories: 'PyTorch'
+description: 演示PyTorch中如何构建GAN网络。
+tags:
+    - 深度学习
+    - PyTorch
+updated: 
+music-id: 
+---
 
 # 自编码器AutoEncoder
 - 几乎所有神经网络的入门书籍都会提到自编码器，其实自编码器是一种典型的非监督学习的神经网络，它在数据核心特征提取方面效用巨大。
