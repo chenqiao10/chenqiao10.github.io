@@ -11,6 +11,8 @@ music-id:
 ---
 ## 简介
 - 本案例使用一个隐层进行特征提取，一个隐层作为输出层进行MNIST手写数据集分类。
+
+
 ## 步骤
 - 获取数据集（keras自带常用练手数据集）
 	- 代码
@@ -85,6 +87,8 @@ music-id:
 	- 显示效果
 		- 可以看到，准确率很高
 		- ![](/asset/2019-04-30/pred.png)
+
+
 ## 补充说明
 - 本案例使用Keras框架，这是基于TensorFlow的一个上层框架，如果新手一开始不理解算图编程，Keras是个流行的选择。
 - 本类框架案例均用代码和效果说话，关于神经网络的原理可以见我的其他博客。具体代码见[我的Github](https://github.com/luanshiyinyang/Tutorial/tree/Keras/RegressionDemo)，欢迎star或者fork。（开发环境为Jupyter）

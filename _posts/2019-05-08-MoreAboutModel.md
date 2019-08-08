@@ -11,6 +11,8 @@ music-id:
 ---
 ## 简介
 - 本案例利用mnist手写数据集，详细介绍fastai中模型的生态。
+
+
 ## 步骤
 - 获取数据集
 	- fastai自带很多数据集，mnist只是其中比较基础的。
@@ -62,6 +64,8 @@ music-id:
 			```
 	- 运行结果
 		- ![](/asset/2019-05-08/final.png)
+
+
 ## 补充说明
 - 本案例使用Fastai框架，这是基于PyTorch的一个上层框架，是2019年以来一个流行的选择，[官方文档地址](https://docs.fast.ai/)给出，目前没有中文文档。
 - 本类框架案例均用代码和效果说话，关于神经网络的原理可以见我的其他博客。具体代码见[我的Github](https://github.com/luanshiyinyang/Tutorial/tree/Fastai/ClassificationDemo2)，欢迎star或者fork。（开发环境为Jupyter，运行在Colab上，GPU为16G的T4）

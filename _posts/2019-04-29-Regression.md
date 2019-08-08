@@ -11,6 +11,8 @@ music-id:
 ---
 ## 简介
 - 本案例使用Keras搭建一个单隐层，20个神经元的神经网络进行回归分析。
+
+
 ## 步骤
 - 创建数据集
 	- 代码
@@ -74,6 +76,8 @@ music-id:
 		- ![](/asset/2019-04-29/rst.png)
 		- 可以看到，100轮训练后有较好的拟合效果，当然数据比较均匀，不然过多训练容易过拟合。
 		- 参数只有一个，因为全连接层只设置一个神经元。
+
+
 ## 补充说明
 - 本案例使用Keras框架，这是基于TensorFlow的一个上层框架，如果新手一开始不理解算图编程，Keras是个流行的选择。
 - 本类框架案例均用代码和效果说话，关于神经网络的原理可以见我的其他博客。具体代码见[我的Github](https://github.com/luanshiyinyang/Tutorial/tree/Keras/RegressionDemo)，欢迎star或者fork。（开发环境为Jupyter）
