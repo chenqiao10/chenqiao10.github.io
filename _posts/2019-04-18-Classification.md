@@ -1,5 +1,5 @@
 ---
-title:      PyTorch实分类网络
+title:      PyTorch实现分类网络
 date:       2019-04-18
 categories: 'PyTorch'
 description: 演示PyTorch中实现分类模型的方法。
