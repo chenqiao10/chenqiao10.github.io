@@ -10,7 +10,11 @@ music-id: 1297532485
 ---
 ## 简介
 - 一行Python代码可以实现什么丧心病狂的功能。
+
+
 ## 输出型
+
+
 ### 格式化输出乘法口诀表
 - 代码
   - ```python
@@ -18,6 +22,8 @@ music-id: 1297532485
     ```
 - 结果
   - ![](/asset/2018-05-01/mul.png)
+
+
 ### 打印迷宫
 - 代码
   - ```python
@@ -25,6 +31,8 @@ music-id: 1297532485
     ```
 - 结果
   - ![](/asset/2018-05-01/maze.png)
+
+
 ### 打印爱心图案
 - 代码
   - ```python
@@ -32,7 +40,11 @@ music-id: 1297532485
     ```
 - 结果
   - ![](/asset/2018-05-01/love.png)
+
+
 ## 服务型
+
+
 ### 开启Web文件服务
 - 代码
   - ```python
@@ -40,12 +52,18 @@ music-id: 1297532485
     ```
 - 结果
   - ![](/asset/2018-05-01/web.png)
+
+
 ## 运算型
+
+
 ### 变量互换
 - 代码
   - ```python
     a, b = b, a
     ```
+
+
 ### 多维数组Flatten
 - 代码
   - ```python
@@ -53,6 +71,8 @@ music-id: 1297532485
     ```
 - 结果
   - ![](/asset/2018-05-01/flatten.png)
+
+
 ## 补充说明
 - 具体项目代码上传至[我的Github](https://github.com/luanshiyinyang/PythonScripts/tree/OneLineCode)，欢迎Star或者Fork。
 - 博客同步至[个人博客网站](https://luanshiyinyang.github.io)，欢迎查看。
