@@ -658,9 +658,9 @@ span#inline-toc {
   * {
       cursor: url("/assets/images/mouse/cursor_1.png"),auto!important
   }
-  :active {
-      cursor: url("/assets/images/mouse/cursor_0.png"),auto!important
-  }
+  //:active {
+  //    cursor: url("/assets/images/mouse/cursor_0.png"),auto!important
+  //}
   
 //自定义背景图片  
  body{
