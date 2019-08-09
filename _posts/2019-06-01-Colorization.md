@@ -9,7 +9,6 @@ tags:
 updated: 
 music-id: 
 ---
-# 图片自动着色
 ## 简介
 - 这是利用CNN分类模型结构进行图片自动着色的一个深度学习项目。
 - 本项目的实现参照Richard Zhang等人的论文[Colorful Image Colorization](https://arxiv.org/pdf/1603.08511.pdf)实现。
