@@ -22,7 +22,8 @@
       {% assign lineno = lineno | append: '<br/>' | append: no %}
     {% endif %}
   {% endfor %}
-  {% capture code_content_with_lineno %}{{ div_tag_begin }}<table style="margin: 0px"><tbody><tr><td class="gutter"><pre>{{ lineno }}</pre></td><td class="code">{{ code_content }}</td></tr></tbody></table>{{ div_tag_end }}{% endcapture %}
+<!--  {% capture code_content_with_lineno %}{{ div_tag_begin }}<table style="margin: 0px"><tbody><tr><td class="gutter"><pre>{{ lineno }}</pre></td><td class="code">{{ code_content }}</td></tr></tbody></table>{{ div_tag_end }}{% endcapture %}-->
+  {% capture code_content_with_lineno %}{{ div_tag_begin }}<table style="margin: 0px"><tbody><tr><td class="code">{{ code_content }}</td></tr></tbody></table>{{ div_tag_end }}{% endcapture %}
   {% assign source = source | replace: code_content, code_content_with_lineno %}
 {% endfor %}
 
