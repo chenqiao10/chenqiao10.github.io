@@ -1,4 +1,13 @@
-# Jupyter进阶教程
+---
+title: Jupyter进阶教程
+date: '2019-08-28'
+categories: '杂项'
+description: 介绍Jupyter的一些高级操作。
+tags: 
+    - Jupyter
+updated: 
+music-id: 
+---
 ## 简介
 - Jupyter Notebook是一款交互式的笔记本或者代码编辑器，支持几十种编程语言，不过主要还是为以Python和R为首的数据科学使用，其前身是Ipython，关于Jupyter的基本安装和使用不多提及。
 - 本教程主要提及一些Jupyter的进阶技巧，基本的使用及快捷键等在入门教程中已经提及了。
