@@ -137,7 +137,7 @@ menu:
   top: /pages/top/
   message: /pages/message/
   book: /pages/book/
-  file: "https://drive.google.com/drive/folders/1kNtr0OiTSU0bCrdpOmVK377jMX8GCvSA?usp=sharing"
+  file:
   note: /pages/note/
   myseo: /myseo/
   sitemap: /sitemap.xml
