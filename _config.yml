@@ -137,7 +137,7 @@ menu:
   top: /pages/top/
   message: /pages/message/
   book: /pages/book/
-  file:
+  file: /pages/file/
   note: /pages/note/
   myseo: /myseo/
   sitemap: /sitemap.xml
