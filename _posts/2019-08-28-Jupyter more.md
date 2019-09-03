@@ -46,7 +46,9 @@ music-id:
 - 说明
   - 作为一个开源工具，很多开发者为Jupyter开发了很多有效的插件如数据库连接、代码拼写检查、代码折叠（很好用）等。
 - 安装
-  - 在该环境的命令行下使用pip安装，如代码检查和折叠插件的安装。
+  - 方法
+    - 在指定环境下使用pip安装插件，启用插件，重启jupyter notebook。
+  - 代码折叠
     - ```shell
         pip install jupyter_contrib_nbextensions
         jupyter contrib nbextension install --user
@@ -54,6 +56,13 @@ music-id:
         jupyter nbextension enable codefolding/main
         ```
     - 安装后可以进行折叠等功能。![](/asset/2019-08-28/extension.png)
+  - 幻灯片展示
+    - ```shell
+        pip install RISE
+        jupyter-nbextension install rise --py --sys-prefix
+        jupyter-nbextension enable rise --py --sys-prefix 
+        ```
+    - 安装后可以进行幻灯片展示代码等。![](/asset/2019-08-28/ppt.png)
 
 
 ## 宏命令（Macros）
