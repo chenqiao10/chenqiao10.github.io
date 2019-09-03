@@ -9,3 +9,8 @@ type: file
 
 
 ## 百度云盘
+- [地址](https://pan.baidu.com/s/1wVRPugOkcuR_SgoFYwjUPg)*提取码:5qtj*
+
+
+## Dropbox
+- 暂不提供访问通道
