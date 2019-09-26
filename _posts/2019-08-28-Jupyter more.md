@@ -92,6 +92,6 @@ music-id:
 
 
 ## 补充说明
-- 参考网络上一些教程，做了一些改动和删减。
+- 参考网络上一些教程，做了一些改动和删减。这里提一下，如果既想要jupyter notebook的轻便和IDE的丰富功能，那么jupyter lab将是很好的额选择，其界面是这样的。![](/asset/2019-08-28/jupyterlab.png)
 - 博客已经同步至我的[个人博客网站](https://luanshiyinyang.github.io)，欢迎访问查看最新文章。
 - 如有错误或者疏漏之处，欢迎指正。
