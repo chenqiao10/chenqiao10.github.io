@@ -1,5 +1,5 @@
 ---
-title: TensorFlow简介
+title: TensorFlow2简介
 date: '2019-09-21'
 categories: 'TensorFlow2'
 description: 介绍TensorFlow2的优劣之处。
