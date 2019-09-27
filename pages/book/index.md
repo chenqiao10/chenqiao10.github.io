@@ -19,3 +19,9 @@ title: 推荐阅读
 - 实战
   - [《深度学习实战》](http://product.dangdang.com/27865557.html)
 
+
+## 数据挖掘
+- 特征工程
+  - [《特征工程入门与实践》](http://product.dangdang.com/27876007.html)
+- 项目实战
+  - [《Python数据分析与挖掘实战》](http://product.dangdang.com/23818948.html)
