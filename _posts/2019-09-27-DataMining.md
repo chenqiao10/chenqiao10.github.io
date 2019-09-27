@@ -5,7 +5,8 @@ categories: '数据科学竞赛'
 description: 简单介绍数据挖掘类比赛的主要流程。
 tags: 
     - 挖掘赛流程。
-updated: 
+updated:
+math: 1
 ---
 >数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已。
 
