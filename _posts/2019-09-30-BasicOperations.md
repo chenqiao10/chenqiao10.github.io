@@ -7,6 +7,7 @@ tags:
     - TensorFlow2教程
 updated: 
 ---
+<img src='/asset/2019-09-21/tf2.gif' alt='' />
 
 
 ## 数据类型
