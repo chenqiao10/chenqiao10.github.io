@@ -4,7 +4,7 @@ date: '2019-09-27'
 categories: '数据科学竞赛'
 description: 简单介绍数据挖掘类比赛的主要流程。
 tags: 
-    - 挖掘赛流程。
+    - 挖掘赛流程
 updated:
 math: 1
 ---
