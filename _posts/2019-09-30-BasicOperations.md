@@ -67,3 +67,14 @@ updated:
   - 演示。![](/asset/2019-09-30/selective.png)
 
 
+## Tensor维度变换
+- `tf.reshape(a, shape)`
+  - 将Tensor调整为新的合法shape，不会改变数据，只是改变数据的理解方式。（reshape中维度指定为-1表示自动推导，类似numpy）![](/asset/2019-09-30/reshape.png)
+- `tf.transpose(a, perm)`
+  - 将原来Tensor按照perm指定的维度顺序进行转置。![](/asset/2019-09-30/transpose.png)
+- `tf.expand_dims(a, axis)`
+  - 在指定维度的前面（axis为正数）或者后面（axis为负数）增加一个新的空维度。![](/asset/2019-09-30/expand.png)
+- `tf.squeeze(a, axis)`
+  - 消去指定的可以去掉的维度（该维度值为1）。![](/asset/2019-09-30/squeeze.png)
+
+
