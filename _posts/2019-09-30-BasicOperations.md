@@ -50,3 +50,20 @@ updated:
     - 类似tf.convert_to_tensor。
 
 
+## Tensor索引和切片
+- C语言风格
+  - 通过多层下标进行索引。![](/asset/2019-09-30/c_index.png)
+- numpy风格
+  - 通过多层下标索引，写在一个中括号内，使用逗号分隔。![](/asset/2019-09-30/np_index.png)
+- Python风格
+  - `array[start:end:step, start:end:step, ...]`可以缺省，start和end缺省时取从开端到结尾。同时，默认从第一个维度开始取，几个冒号则从开始取几个维度，后面的剩余维度全取。同样，上述省略号表示后面的维度都取，等同于不写的含义（但是，当省略号出现在中间则不能不写）。![](/asset/2019-09-30/slice.png)
+- selective index
+  - `tf.gather(a, axis, indices)`
+  - axis表示指定的收集维度，indices表示该维度上收集那些序号。
+  - `tf.gather_nd(a, indices)`
+  - indices可以是多维的，按照指定维度索引。
+  - `tf.boolean_mask(a, mask, axis)`
+  - 按照布尔型的mask，对为True的对应取索引（支持多层维度）。
+  - 演示。![](/asset/2019-09-30/selective.png)
+
+
