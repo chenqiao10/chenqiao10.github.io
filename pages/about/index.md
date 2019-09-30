@@ -18,7 +18,8 @@ type: about
 
 ## 联系方式
 
-* <a href="mailto:luanshiyinyang@gmail.com">Gmail</a>
+- <a href="mailto:luanshiyinyang@gmail.com">Gmail</a>
+- 点击网页右侧底部悬浮聊天框，你的消息将直接发送到我的微信。 
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
