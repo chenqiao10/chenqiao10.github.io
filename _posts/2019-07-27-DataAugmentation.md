@@ -1,5 +1,5 @@
 ---
-title:      Keras-数据增广
+title:      数据增广
 date:       2019-07-27
 categories: 'Keras'
 description: 使用Keras进行数据增广。
