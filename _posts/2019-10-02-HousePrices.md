@@ -192,6 +192,6 @@ updated:
 
 
 ## 补充说明
-- 项目的源码和数据集都上传到我的Github，欢迎查看。
+- 项目的源码和数据集都上传到[我的Github](https://github.com/luanshiyinyang/DataCompetition/tree/HousePrices)，欢迎查看。
 - 文章同步到我的[个人博客网站](https://luanshiyinyang.github.io/)，欢迎查看其他文章。
 - 如有错误，欢迎指正。
