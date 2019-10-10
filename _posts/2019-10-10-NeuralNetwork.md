@@ -2,7 +2,7 @@
 title: TensorFlow2神经网络基础
 date: '2019-10-10'
 categories: 'TensorFlow2'
-description: 介绍TensorFlow2的一些高级API使用。
+description: 介绍TensorFlow2的神经网络构建的基础知识。
 tags: 
     - TensorFlow2教程
 updated: 
