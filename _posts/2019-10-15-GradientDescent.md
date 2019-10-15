@@ -237,5 +237,5 @@ $$\theta_{t+1}=\theta_{t}-\alpha_{t} \nabla f\left(\theta_{t}\right)$$
 
 ## 补充说明
 - 本文主要针对TensorFlow2中数据加载和误差计算的接口进行了简略说明。
-- 博客同步至我的[个人博客网站](https://luanshiyinyang.github.io/tensorflow2/2019/10/10/NeuralNetwork/)，欢迎浏览其他文章。
+- 博客同步至我的[个人博客网站](https://luanshiyinyang.github.io)，欢迎浏览其他文章。
 - 如有错误，欢迎指正。
