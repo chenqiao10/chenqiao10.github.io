@@ -6,6 +6,7 @@ description: 简述线性回归模型的原理及代码实现。
 tags: 
     - 线性回归
 updated: 
+math: 1
 ---
 
 
