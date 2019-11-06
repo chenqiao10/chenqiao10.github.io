@@ -50,7 +50,7 @@ $$
 \begin{array}{l}{\theta_{0}=\theta_{0}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right)} \\ {\theta_{1}=\theta_{1}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) \cdot x^{(i)}}\end{array}
 $$
 
-实现一元线性回归，数据集采用很简单的一个只有房子面积这个特征的房价数据集，实现运算主要采用Numpy。<div align="center">![ALT](/asset/2019-10-30/data.png)</div>
+实现一元线性回归，数据集采用很简单的一个只有房子面积这个特征的房价数据集，实现运算主要采用Numpy。![](/asset/2019-10-30/data.png)
 **需要注意，在数据量很少的情况下使用高学习率是不明智的，因为数值变化过快很难进行收敛。本案例就出现了这种情况。**
 ```python
 """
