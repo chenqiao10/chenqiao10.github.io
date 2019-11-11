@@ -16,13 +16,13 @@ math: 1
 ## 逻辑回归
 试图用线性回归这样的模型寻找分类的决策边界，会遇到很多问题，如难以控制输出值的范围。事实上，要想对这个模型得到可控制的输出值，可以将原来线性回归的输出值进行某种变换，使其值控制在[0, 1]之间。
 
-\[\begin{aligned} h_{\theta}(x) &=g\left(\theta^{T} x\right) \\ g(z) &=\frac{1}{1+e^{-z}} \end{aligned}\]
+\\[\begin{aligned} h_{\theta}(x) &=g\left(\theta^{T} x\right) \\ g(z) &=\frac{1}{1+e^{-z}} \end{aligned}\\]
 
 因而，得到最终的假设函数（预测函数）如下，其输出值可以理解为类别的概率（更具体来说，输出的值为y=1的概率）。
 
-\[
+\\[
 h_{\theta}(x) = \frac{1}{1+e^{-\theta^Tx}}
-\]
+\\]
 
 上述的g函数将任何实数映射到[0, 1]之间，该函数称为Sigmoid函数或者Logistic函数，Sigmoid是经典的S型函数之一。![](/asset/2019-11-08/sigmoid.png)
 而训练的目标，就是找到最合适的参数\\(\theta\\)使得由\\(\theta\\)构成的模型能够最完美的将不同的类别划分开，找到的最合适的\\(\theta^{T}x\\)就称为决策边界（Decision Boundary）。越是复杂越是非线性的决策边界可以更好地进行分类，而决策边界并非数据集的属性而是假设函数和参数的属性。**获得更复杂更精准的决策边界，就是分类任务的目的。**
@@ -33,21 +33,21 @@ h_{\theta}(x) = \frac{1}{1+e^{-\theta^Tx}}
 
 因此，在逻辑回归中定义代价函数如下。
 
-\[
+\\[
 \operatorname{cost}\left({h}_{{\theta}}(x), y\right)=\left\{\begin{aligned}-\log \left(h_{\theta}(x)\right) & \text { if } y=1 \\-\log \left(1-h_{\theta}(x)\right) & \text { if } y=0 \end{aligned}\right.
-\]
+\\]
 
 上式可以统一为一个表达式（可以轻易证明），它更加简洁也更加方便求导，这个损失函数叫做交叉熵损失函数，交叉熵损失函数是分类问题最常用的损失函数之一。至于为什么这样定义这个损失函数，其实是使用最大似然估计法从统计数据中得到的，而且，这是一个凸函数。
 
-\[
+\\[
 \begin{aligned} J(\theta) &=\frac{1}{m} \sum_{i=1}^{m} \operatorname{cost}\left(h_{\theta}\left(x^{(i)}\right), y^{(i)}\right) \\ &=-\frac{1}{m}\left[\sum_{i=1}^{m} y^{(i)} \log h_{\theta}\left(x^{(i)}\right)+\left(1-y^{(i)}\right) \log \left(1-h_{\theta}\left(x^{(i)}\right)\right)\right] \end{aligned}
-\]
+\\]
 
 通过最小化上述的\\(J\\)得到合适的\\(\theta\\)以拟合训练数据，这个最优参数\\(\theta\\)的求解通过梯度下降法完成，更新的方式如下（可以看到，相比于线性回归，逻辑回归只是预测函数改变了）。
 
-\[
+\\[
 \theta_{j}=\theta_{j}-\alpha \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) x_{j}^{(i)}
-\]
+\\]
 
 ## 逻辑回归实战
 通过构建逻辑回归模型，训练该模型并可视化训练过程。数据集采用一个包含两个特征的二分类数据集。
@@ -84,17 +84,17 @@ h_{\theta}(x) = \frac{1}{1+e^{-\theta^Tx}}
 
 正规化的代价函数如下，相比于之前的代价函数添加了以\\(\lambda\\)为系数的一项，这里的\\(\lambda\\)就是惩罚力度（正则化参数），即前面所说的较大的系数（不能太大，否则无法学习）。现在优化的目标就是最小化这个代价函数。
 
-\[
+\\[
 J(\theta)=\frac{1}{2 m}\left[\sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right)^{2}+\lambda \sum_{j=1}^{n} \theta_{j}^{2}\right]
 \]
 
 这样，梯度下降的更新公式如下，\\(\theta_{0}\\)是不需要惩罚的。
-\[
+\\[
 \theta_{0}=\theta_{0}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) x_{0}^{(i)}
-\]
-\[
+\\]
+\\[
 \theta_{j}=\theta_{j}-{\alpha}\left[\frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) x_{j}^{(i)}+\frac{\lambda}{m} \theta_{j}\right]
-\]
+\\]
 
 不论是线性回归或者是逻辑回归或者其他机器学习模型，添加正则项通常是防止过拟合的有效手段。
 
