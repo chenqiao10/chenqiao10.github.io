@@ -18,6 +18,7 @@ math: 1
 
 \\[\begin{aligned} h_{\theta}(x) &=g\left(\theta^{T} x\right) \\ g(z) &=\frac{1}{1+e^{-z}} \end{aligned}\\]
 
+
 因而，得到最终的假设函数（预测函数）如下，其输出值可以理解为类别的概率（更具体来说，输出的值为y=1的概率）。
 
 \\[
@@ -89,6 +90,7 @@ J(\theta)=\frac{1}{2 m}\left[\sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-
 \]
 
 这样，梯度下降的更新公式如下，\\(\theta_{0}\\)是不需要惩罚的。
+
 \\[
 \theta_{0}=\theta_{0}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) x_{0}^{(i)}
 \\]
