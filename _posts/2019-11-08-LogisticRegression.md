@@ -34,9 +34,9 @@ h_{\theta}(x) = \frac{1}{1+e^{-\theta^Tx}}
 
 因此，在逻辑回归中定义代价函数如下。
 
-\\[
+$$
 Cost\left({h}_{{\theta}}(x), y\right)=\left\{\begin{aligned}-\log \left(h_{\theta}(x)\right) & \text { if } y=1 \\-\log \left(1-h_{\theta}(x)\right) & \text { if } y=0 \end{aligned}\right.
-\\]
+$$
 
 上式可以统一为一个表达式（可以轻易证明），它更加简洁也更加方便求导，这个损失函数叫做交叉熵损失函数，交叉熵损失函数是分类问题最常用的损失函数之一。至于为什么这样定义这个损失函数，其实是使用最大似然估计法从统计数据中得到的，而且，这是一个凸函数。
 
