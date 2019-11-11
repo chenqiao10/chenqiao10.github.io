@@ -34,7 +34,7 @@ h_{\theta}(x) = \frac{1}{1+e^{-\theta^Tx}}
 
 因此，在逻辑回归中定义代价函数如下。
 
-\\[]
+\\[
 Cost\left({h}_{{\theta}}(x), y\right)=\left\{\begin{aligned}-\log \left(h_{\theta}(x)\right) & \text { if } y=1 \\-\log \left(1-h_{\theta}(x)\right) & \text { if } y=0 \end{aligned}\right.
 \\]
 
