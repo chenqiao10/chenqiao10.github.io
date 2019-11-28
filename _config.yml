@@ -85,7 +85,7 @@ plugins:
 favicon: /assets/favicon.png
 
 # Set default keywords (Use a comma to separate)
-keywords: "ZC, ZC Blog, 周晨的博客, zhouchen, 周晨, 深度学习"
+keywords: "ZC, ZC Blog, zhouchen, 周晨, 周先森爱吃素的博客"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -179,8 +179,8 @@ menu_icons:
 
 # 主题配置，个人觉得第三种好看
 # scheme: Muse
-# scheme: Mist
-scheme: Pisces
+scheme: Mist
+#scheme: Pisces
 
 
 # ---------------------------------------------------------------
